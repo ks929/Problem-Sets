@@ -1,1 +1,2 @@
 # Problem-Sets
+This problem set was completed by Kayla Stephenson. I worked by myself and consulted Professor Varner and Madeline Ortiz. This problem set implements a parser to compute a composition dictionary, fulfilling all the tasks outlined in the README.md. Thank you.
