@@ -5,7 +5,7 @@ Internal function that constructs the right-hand side vector for the chemical de
 """
 function _build_right_handside_vector(N::Int64, κ::Float64, h::Float64, Cₒ::Float64)::Array{Float64,1} 
         b = zeros(N)
-        b[1] = Cₒ - h*k*Cₒ
+        b[1] = Cₒ - h*κ*Cₒ
         return b
 end
 
@@ -25,7 +25,7 @@ function _build_system_matrix(N::Int64, κ::Float64, h::Float64)::Array{Float64,
         for j ∈ 2:N #columns
             if(i == j)
                 A[i,j] = 1
-                A[i,j-1] = (h*k-1)
+                A[i,j-1] = (h*κ-1)
             end
         end
     end

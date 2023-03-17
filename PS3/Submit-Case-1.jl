@@ -3,11 +3,11 @@ include("Include.jl")
 
 
 # Case 1
-k = 1.0
+κ = 1.0
 h = 0.1 
 N = Int(20/h)
 Cₒ = 10.0 
-model = build(MyChemicalDecayModel, κ = k , h = h, N = N, Cₒ = Cₒ)
+model = build(MyChemicalDecayModel, κ = κ , h = h, N = N, Cₒ = Cₒ)
 A = model.A
 b = model.b
 x1_iterative_J = solve(JacobiIterationSolver(),model.A,model.b,zeros(200));
