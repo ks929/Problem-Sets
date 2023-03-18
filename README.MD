@@ -1,3 +1,6 @@
+# Problem-Sets
+This problem set was completed by Kayla Stephenson. I worked by myself and consulted Professor Varner. This problem set implements a build function that builds a matrix and a right handside vector, solves for equations using Jacobi and Gauss-Seidel iterations, and solves for the error between the solutions for Case 1, 2, and 3, fulfilling all the tasks outlined in the README.md. Thank you.
+
 $$
 \begin{pmatrix}
 1 & 0 & 0 & 0 \\
