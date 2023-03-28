@@ -1,2 +1,0 @@
-# Problem-Sets
-This problem set was completed by Kayla Stephenson. I worked by myself and consulted Lara Capellino and Professor Varner's notes. This problem set collects data and stores it into a matrix using Singular Value Decomposition, so that we can analyze the mean and standard deviation,fulfilling all the tasks outlined in the README.md. Thank you.
