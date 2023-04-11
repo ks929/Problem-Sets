@@ -13,7 +13,7 @@ function _build_stoichiometric_matrix(data::Dict{String,Any})::Array{Float64,2}
     
     # TODO: fill in the entries of the stochiometric matrix 
     # ...
-
+        
     # return -
     return S
 end
@@ -28,6 +28,11 @@ function _build_metabolite_id_array(data::Dict{String,Any})::Array{String,1}
 
     # TODO: fill the metabolite_id_array with the metabolite id's from the data dictionary
     # ....
+    metabolites = data["metabolites"];
+    for metabolite ∈ metabolites
+        id_value = metabolite["id"];
+        push!(metabolite_id_array, id_value);
+    end 
 
     # return -
     return metabolite_id_array;
