@@ -1,0 +1,1 @@
+This problem set was completed by Kayla Stephenson. In this problem set, different values of b were tested to determine a value b that would attain equal PV values. 
